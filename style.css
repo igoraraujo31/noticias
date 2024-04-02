@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
 
 }
 
@@ -22,3 +24,26 @@ body {
 
 }
 
+.header-mobile {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header-mobile button {
+
+    border:none;
+    background: none;
+}
+
+.primeira-secao{
+
+    margin-bottom: 4rem;
+}
+
+.primeira-secao{
+
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
